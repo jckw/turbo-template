@@ -1,0 +1,7 @@
+._ovs-contain {overscroll-behavior:contain;}
+.is_Text .is_Text {display:inline-flex;}
+._dsp_contents {display:contents;}
+:root {--color-1:#000000;--color-2:#00ff00;--color-3:#ffffff;--color-4:#000000;--color-5:#fcfcfd;--color-6:#f9fafb;--color-7:#f2f4f7;--color-8:#eaecf0;--color-9:#d0d5dd;--color-10:#98a2b3;--color-11:#667085;--color-12:#475467;--color-13:#344054;--color-14:#182230;--color-15:#101828;--color-16:#0c111d;--color-17:#f4f9fb;--color-18:#eef6f9;--color-19:#e0eff4;--color-20:#b9dce7;--color-21:#96cbdc;--color-22:#72b9d0;--color-23:#4ba6c3;--color-24:#2191b5;--color-25:#0081aa;--color-26:#016585;--color-27:#014d66;--color-28:#002e3d;--color-29:#fffbfa;--color-30:#fef3f2;--color-31:#fee4e2;--color-32:#fecdca;--color-33:#fda29b;--color-34:#f97066;--color-35:#f04438;--color-36:#d92d20;--color-37:#b42318;--color-38:#912018;--color-39:#7a271a;--color-40:#55160c;--space-1:0px;--space-2:4px;--space-3:8px;--space-4:12px;--space-5:16px;--space-6:24px;--space-7:32px;--space-8:48px;--space-9:6px;--space-10:10px}
+:root .font_body, :root .t_lang-body-default .font_body {--f-fa:Inter, var(--font-inter), sans-serif;--f-si-1:16px;--f-si-2:14px;--f-si-3:16px;--f-si-4:18px;--f-si-5:20px}
+:root .font_display, :root .t_lang-display-default .font_display {--f-fa:Simula, var(--font-simula);--f-si-1:16px;--f-si-2:12px;--f-si-3:18px;--f-si-4:24px;--f-si-5:32px;--f-si-6:48px}
+:root .t_dark .t_light, :root .t_dark .t_light .t_dark .t_light, :root .t_light, :root .t_light .t_dark .t_light {}
