@@ -11,7 +11,8 @@
   "dependencies": {
     "@repo/app": "*",
     "@repo/ui": "*",
-    "@tamagui/next-plugin": "^1.86.6",
+    "@tamagui/core": "^1.88.21",
+    "@tamagui/next-plugin": "^1.86.21",
     "cookies": "^0.9.1",
     "js-cookie": "^3.0.5",
     "next": "^14.0.4",

@@ -16,9 +16,10 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@tamagui/checkbox": "^1.88.17",
-    "@tamagui/core": "^1.88.0",
-    "@tamagui/focusable": "^1.88.6",
+    "@tamagui/checkbox": "^1.88.21",
+    "@tamagui/core": "^1.88.21",
+    "@tamagui/focusable": "^1.88.21",
+    "@tamagui/react-native-media-driver": "^1.88.21",
     "@ts-react/form": "^1.8.3",
     "react": "^18.2.0",
     "react-native": "^0.73.2"

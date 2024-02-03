@@ -1,3 +1,4 @@
+import { createMedia } from "@tamagui/react-native-media-driver"
 import { createFont, createTamagui, createTokens, isWeb } from "@tamagui/core"
 export { TamaguiProvider } from "@tamagui/core"
 
@@ -175,7 +176,7 @@ export const config = createTamagui({
     light: {},
   },
 
-  media: {
+  media: createMedia({
     xs: { maxWidth: 660 },
     gtXs: { minWidth: 660 + 1 },
     sm: { maxWidth: 860 },
@@ -188,7 +189,7 @@ export const config = createTamagui({
     tall: { minHeight: 820 },
     hoverNone: { hover: "none" },
     pointerCoarse: { pointer: "coarse" },
-  },
+  }),
 })
 
 type AppConfig = typeof config
