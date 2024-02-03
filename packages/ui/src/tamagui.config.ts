@@ -15,13 +15,12 @@ const displayFont = createFont({
   },
 
   face: {
-    // Note: iOS uses the font name from reading the file, whereas Android uses the name
-    // of the font file. It may be necessary to rename the font file to match the name
-    // of the font from the file.
-    400: { normal: "ClashDisplay-Regular" },
-    500: { normal: "ClashDisplay-Medium" },
-    600: { normal: "ClashDisplay-Semibold" },
-    700: { normal: "ClashDisplay-Bold" },
+    // Note: these should reflect the alias defined in the dynamic loading of the font
+    // in _layout.tsx
+    400: { normal: "ClashDisplayRegular" },
+    500: { normal: "ClashDisplayMedium" },
+    600: { normal: "ClashDisplaySemibold" },
+    700: { normal: "ClashDisplayBold" },
   },
 })
 
