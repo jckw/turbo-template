@@ -106,6 +106,7 @@ const ButtonSpinner = styled(_ActivityIndicator, {
   variants: {
     isLoading: {
       true: {
+        // @ts-ignore
         color: "$white",
       },
       false: {
